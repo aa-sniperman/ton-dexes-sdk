@@ -1,0 +1,23 @@
+{
+  "name": "ton-dexes-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "swap-with-ton": "npx ts-node ./scripts/swap-with-ton.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ston-fi/sdk": "^0.4.0",
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.11.1",
+    "dotenv": "^16.4.5"
+  }
+}
